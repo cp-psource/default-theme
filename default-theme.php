@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: Standard Theme
-Version: 1.0.4
-Plugin URI: https://n3rds.work/wiki/piestingtal-source-wiki/standard-theme-plugin/
+Version: 1.0.5
+Plugin URI: https://n3rds.work/piestingtal_source/standard-theme-plugin/
 Description: Ermöglicht die einfache Auswahl eines neuen Standardthemes für neue Blog-Anmeldungen
 Author: WMS N@W
 Author URI: https://n3rds.work
@@ -27,7 +27,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-require 'external/plugin-update-checker/plugin-update-checker.php';
+require 'psource/psource-plugin-update/psource-plugin-updater.php';
 $MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=default-theme', 
 	__FILE__, 
@@ -116,4 +116,4 @@ function default_theme_site_admin_options() {
 
 global $wpmudev_notices;
 $wpmudev_notices[] = array( 'id' => 48, 'name' => 'Standard Theme', 'screens' => array( 'settings-network' ) );
-//include_once( plugin_dir_path( __FILE__ ) . 'external/dash-notice/wpmudev-dash-notification.php' );
+
