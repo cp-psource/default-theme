@@ -23,7 +23,7 @@ Rufe nach der Aktivierung Netzwerk-Admin > Einstellungen auf und wähle das Desi
 
 [Projektseite](https://n3rds.work/piestingtal_source/standard-theme-plugin/)
 [Handbuch](https://n3rds.work/docs/standard-theme-plugin-handbuch/)
-[Supportforum](https://n3rds.work/forums/forum/psource-support-foren/buddypress-gruppen-e-mail-supportforum/)
+[Supportforum](https://n3rds.work/forums/forum/psource-support-foren/standard-theme-plugin/)
 [GitHub](https://github.com/piestingtal-source/default-theme)
 
 == Mehr PSOURCE ==
